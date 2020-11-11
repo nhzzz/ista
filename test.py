@@ -8,6 +8,7 @@ while True:
 		print('实现这个功能主要运用了requests库')
 		print('从github获取代码再通过exec运行')
 	elif choose == '2':
+		print('请稍后，正在从GitHub获取源码')
 		print(r.get('https://nhzzz.github.io/ista/test.py').text)
 	else:
 		print('链接断开')
